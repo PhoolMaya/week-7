@@ -118,16 +118,16 @@ for  (const name of names) {
 
 // Example:
 const myArray1 = [20, 30, 50]; // Sum = 100
-console.log(isSumGreaterThan100(myArray1)); // Should print false
+console.log(isSumGreaterThan100(myArray1));
 
 const anotherArray = [40, 60, 30]; // Sum = 130
-console.log(isSumGreaterThan100(anotherArray)); // Should print true
+console.log(isSumGreaterThan100(anotherArray)); 
 
 //for no.10
 //Write a function that takes an array of numbers and returns the average of all the elements in the array.
 function calculateAverage(arr) {
   if (arr.length === 0) {
-      return 0; // Handle empty array case
+      return 0; 
   }
 
   const sum = arr.reduce((acc, num) => acc + num, 0);
