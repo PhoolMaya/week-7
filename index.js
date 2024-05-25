@@ -116,7 +116,7 @@ for  (const name of names) {
     return sum > 100;
 }
 
-// Example usage:
+// Example:
 const myArray1 = [20, 30, 50]; // Sum = 100
 console.log(isSumGreaterThan100(myArray1)); // Should print false
 
@@ -135,7 +135,7 @@ function calculateAverage(arr) {
   return average;
 }
 
-// Example usage:
+// Example:
 const myArray = [10, 20, 30, 40];
 const result = calculateAverage(myArray);
 console.log(`The average is: ${result}`);
